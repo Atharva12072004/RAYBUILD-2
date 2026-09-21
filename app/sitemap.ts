@@ -1,0 +1,2 @@
+import type {MetadataRoute} from "next";
+export default function sitemap():MetadataRoute.Sitemap{const base=process.env.NEXT_PUBLIC_SITE_URL||"http://localhost:3000";const paths=["/solar","/solar/about","/solar/services","/solar/projects","/solar/contact","/solar/thank-you","/construction","/construction/about","/construction/services","/construction/projects","/construction/contact","/construction/thank-you"];return paths.map(path=>({url:`${base}${path}`,lastModified:new Date()}));}

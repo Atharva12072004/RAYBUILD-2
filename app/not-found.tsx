@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound(){return <section className="section"><div className="container" style={{textAlign:"center"}}><span className="eyebrow">404</span><h1 style={{fontSize:"clamp(42px,7vw,72px)",margin:"15px 0"}}>Page not found</h1><p className="prose">The page you requested does not exist or has moved.</p><Link className="btn btn-primary" href="/solar">Return to Raybuild</Link></div></section>}
