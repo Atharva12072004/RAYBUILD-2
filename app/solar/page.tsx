@@ -1,2 +1,4 @@
 import DivisionHome from "@/components/pages/DivisionHome";
-export default function Page(){return <DivisionHome type="solar"/>}
+import LeadPopup from "@/components/forms/LeadPopup";
+
+export default function Page(){return <><DivisionHome type="solar"/><LeadPopup division="solar"/></>}
